@@ -6,7 +6,9 @@ code to Oculomotor working memory signals are flexible to behavioral priority an
 > raw data will be publically shared upon publication.
 > 
 readEL: readin and transform the eyelink file into trial x time structure, ready it for subsequent processing. (note: this code runs on the raw data, which is not included in this repo.)
+
 cleanELPup: preprocess the pupil data; remove outliers (e.g. due to blinks), interpolate missing data; subject rejection.
+
 cleanELSacc: preprocess the gaze data using the blink mask generated from cleanELPup; extract saccade from gaze; 
 
 
@@ -19,4 +21,5 @@ cleanELSacc: preprocess the gaze data using the blink mask generated from cleanE
 -------------------------results-------------------------------
 
 pupResults: the main results for the pupil analysis; plots and stats;
+
 saccResults: the main results for the gaze/saccade; plots and stats;
