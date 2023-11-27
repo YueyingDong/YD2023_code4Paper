@@ -11,7 +11,9 @@ cleanELSacc: preprocess the gaze data using the blink mask generated from cleanE
 
 
 > after processing, results is saved under /data4Paper
-> for accessing the processing the data, please visit our OSF repository, data should be unziped under /data4paper folder.
+> 
+> for accessing the processed the data to generate the results, please visit our OSF repository, data should be unziped under /data4paper folder.
+> 
 > link to OSF repository: https://osf.io/qyv5z/?view_only=f52d68da115342c1af4bd72dea119a8c
 
 -------------------------results-------------------------------
