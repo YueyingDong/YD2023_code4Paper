@@ -3,7 +3,6 @@ code to Oculomotor working memory signals are flexible to behavioral priority an
 
 -------------------------processing-------------------------------
 
-> raw data will be publically shared upon publication.
 > 
 readEL: readin and transform the eyelink file into trial x time structure, ready it for subsequent processing. (note: this code runs on the raw data, which is not included in this repo.)
 
@@ -14,7 +13,7 @@ cleanELSacc: preprocess the gaze data using the blink mask generated from cleanE
 
 > after processing, results is saved under /data4Paper
 > 
-> for accessing the processed the data to generate the results, please visit our OSF repository, data should be unziped under /data4paper folder.
+> for accessing the processed the data to generate the results, please visit our OSF repository, data should be unziped under /data4paper and /data4paper_pl folder.
 > 
 > link to OSF repository: https://osf.io/qyv5z/?view_only=f52d68da115342c1af4bd72dea119a8c
 
